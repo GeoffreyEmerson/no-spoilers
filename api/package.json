@@ -1,0 +1,57 @@
+{
+  "name": "no-spoilers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "pretest": "gulp",
+    "test": "istanbul cover node_modules/mocha/bin/_mocha",
+    "prestart": "gulp",
+    "start": "nodemon bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeoffreyEmerson/no-spoilers.git"
+  },
+  "author": "Geoffrey Emerson <geoffrey.emerson.git@gmail.com> (http://geoffreyemerson.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GeoffreyEmerson/no-spoilers/issues"
+  },
+  "homepage": "https://github.com/GeoffreyEmerson/no-spoilers#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-validator": "^2.20.8",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.19.2",
+    "mongoose": "^4.13.4",
+    "passport": "^0.4.0",
+    "passport-jwt": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.1",
+    "@types/jwt-simple": "^0.5.33",
+    "@types/mocha": "^2.2.44",
+    "@types/mongoose": "^4.7.27",
+    "@types/node": "^8.0.53",
+    "@types/passport": "^0.4.1",
+    "@types/passport-jwt": "^3.0.0",
+    "@types/superagent": "^3.5.6",
+    "chai": "^4.1.2",
+    "gulp": "^3.9.1",
+    "gulp-apidoc": "^0.2.6",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-typescript": "^3.2.3",
+    "gulp-util": "^3.0.8",
+    "istanbul": "^1.0.0-alpha.2",
+    "mocha": "^3.2.0",
+    "supertest": "^3.0.0",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.1",
+    "vinyl-fs": "^2.4.4"
+  }
+}
